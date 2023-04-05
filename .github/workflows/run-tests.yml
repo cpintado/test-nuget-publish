@@ -42,7 +42,7 @@ jobs:
       run: docker build . --file Dockerfile --tag ghcr.io/${{ github.repository }}:$PACKAGE_VERSION
     - name: Publish a Nuget package
       run: |
-        docker run -e USER -e TOKEN -e NAMESPACE -e GHES_HOSTNAME\
-        -e SUBDOMAIN_ISOLATION -e PACKAGE_VERSION\
-        -e REPOSITORY_URL\
+        docker run -e USER -e TOKEN -e NAMESPACE -e GHES_HOSTNAME \
+        -e SUBDOMAIN_ISOLATION -e PACKAGE_VERSION \
+        -e REPOSITORY_URL \
         ghcr.io/${{ github.repository }}:$PACKAGE_VERSION
