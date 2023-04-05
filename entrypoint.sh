@@ -74,8 +74,8 @@ if [[ ! $NAMESPACE =~ ^[a-z0-9-]+$ ]]; then
 fi
 
 if [ -z "$PACKAGE_ID" ]; then
-    echo "Package_ID not set. Using ${NAMESPACE}-dummy-package as default"
-    PACKAGE_ID="${NAMESPACE}-dummy-package"
+    echo "Package_ID not set. Using ${NAMESPACE}-test-package as default"
+    PACKAGE_ID="${NAMESPACE}-test-package"
 fi
 
 if [[ ! $PACKAGE_ID =~ ^[a-z0-9-]+$ ]]; then
