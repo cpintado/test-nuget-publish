@@ -59,7 +59,7 @@ This is the simplest example but you can use more environment variables to suit 
 This is a reference of the environment variables that can be passed as arguments to the docker image.
 
 | **Env variable** | **Required** | **Default value** | **Notes** |
-| --------------------------------------------------|
+|------------------|--------------|-------------------|-----------|
 | USER | yes | N/A | Username of your personal account, as documented in [authenticating with a personal access token](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-nuget-registry#authenticating-with-a-personal-access-token) |
 | NAMESPACE | yes | N/A | Organization or user to which the package will be published |
 | TOKEN | yes | N/A | Personal access token with the necessary scopes (`write:packages`) |
