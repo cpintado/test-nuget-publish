@@ -73,6 +73,6 @@ This is a reference of the environment variables that can be passed as arguments
 | PACKAGE_VERSION | no | 1.0.0 | Version of the package to be published/downloaded
 | REPOSITORY_URL | no | N/A | A repository to which to associate the package to. This is not required in `github.com`, but please note that as of GitHub Enterprise Server 3.8 this is still a requirement for GitHub Enterprise Server. |
 | GHES_HOSTNAME | no | N/A | Fully qualified domain name of a GitHub Enterprise Server instance to which the package has to be published/downloaded. |
-| SUBDOMAIN_ISOLATION | no | true | In case a GitHub Enterprise Server instance has been specified, a value of `true` indicates the instance has[subdomain isolation](https://docs.github.com/en/enterprise-server@3.8/admin/configuration/configuring-network-settings/enabling-subdomain-isolation) enabled. A value of `false` indicates that subdomain isolation is not enabled for the instance. This is used to determine the correct URL of the registry. 
+| SUBDOMAIN_ISOLATION | no | true | In case a GitHub Enterprise Server instance has been specified, a value of `true` indicates the instance has [subdomain isolation](https://docs.github.com/en/enterprise-server@3.8/admin/configuration/configuring-network-settings/enabling-subdomain-isolation) enabled. A value of `false` indicates that subdomain isolation is not enabled for the instance. This is used to determine the correct URL of the registry. 
 
 
