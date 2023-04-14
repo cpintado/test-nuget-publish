@@ -4,6 +4,11 @@
 
 ## Table of Contents
 
+- [What does this tool do?](#what-does-this-tool-do?)
+- [Requirements](#requirements)
+- [Setup](#setup)
+- [How to use](#how-to-use)
+- [Environment variables](#environment-variables)
 
 ## What does this tool do?
 
