@@ -24,7 +24,6 @@ env:
   REPOSITORY_URL: 'https://cpintado-37.westeurope.cloudapp.azure.com/${{ github.repository }}'
 
 jobs:
-
   test-publish-nuget:
     runs-on: ubuntu-latest
     name: Publish a Nuget package to a test server

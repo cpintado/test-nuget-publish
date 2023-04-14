@@ -8,7 +8,6 @@ env:
   IMAGE_TAG: 'ghcr.io/${{ github.repository }}:${{ github.event.release.tag_name }}'
 
 jobs:
-
   publish-release:
     runs-on: ubuntu-latest
     name: Publish the image to the GHCR
