@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-- [What does this tool do?](#what-does-this-tool-do?)
+- [What does this tool do?](#what-does-this-tool-do)
 - [Requirements](#requirements)
 - [Setup](#setup)
 - [How to use](#how-to-use)
