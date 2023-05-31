@@ -14,7 +14,7 @@
 
 This is a docker image that when run publishes an empty package to the GitHub Packages NuGet registry or to a GitHub Enterprise Server instance of your choice. In this way you can test if your GitHub Packages setup is properly configured without delving into the details of the package manager.
 
-It accepts varios parameters, such as the package name and version, token to use for authentication, etc.
+It accepts various parameters, such as the package name and version, token to use for authentication, etc.
 
 ## Requirements
 
